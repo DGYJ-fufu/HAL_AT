@@ -1,0 +1,6 @@
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal.dir
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-build.dir
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-configure.dir
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-database.dir
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/edit_cache.dir
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/rebuild_cache.dir

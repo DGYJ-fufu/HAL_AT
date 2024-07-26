@@ -1,0 +1,10 @@
+build-idx:
+  generated-by: csolution version 2.5.0
+  csolution: Terminal.csolution.yml
+  tmpdir: tmp
+  cprojects:
+    - cproject: Terminal.cproject.yml
+  cbuilds:
+    - cbuild: Terminal+Terminal.cbuild.yml
+      project: Terminal
+      configuration: +Terminal

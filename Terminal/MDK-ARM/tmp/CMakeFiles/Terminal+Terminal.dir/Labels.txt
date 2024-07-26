@@ -1,0 +1,14 @@
+# Target labels
+ Terminal+Terminal
+# Source files and their labels
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-complete.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-build.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-configure.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-download.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-install.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-mkdir.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-patch.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-test.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-update.rule

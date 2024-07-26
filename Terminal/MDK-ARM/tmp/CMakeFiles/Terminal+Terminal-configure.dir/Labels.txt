@@ -1,0 +1,10 @@
+# Target labels
+ Terminal+Terminal
+# Source files and their labels
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-configure
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-configure.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-configure.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-patch.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-update.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-download.rule
+C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-mkdir.rule

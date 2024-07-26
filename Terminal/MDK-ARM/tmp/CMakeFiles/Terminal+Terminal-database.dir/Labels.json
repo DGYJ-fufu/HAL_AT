@@ -1,0 +1,37 @@
+{
+	"sources" : 
+	[
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-database"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/CMakeFiles/Terminal+Terminal-database.rule"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-database.rule"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-configure.rule"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-patch.rule"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-update.rule"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-download.rule"
+		},
+		{
+			"file" : "C:/Users/24171/Desktop/Terminal/MDK-ARM/tmp/Terminal+Terminal/src/Terminal+Terminal-stamp/Terminal+Terminal-mkdir.rule"
+		}
+	],
+	"target" : 
+	{
+		"labels" : 
+		[
+			"Terminal+Terminal"
+		],
+		"name" : "Terminal+Terminal-database"
+	}
+}

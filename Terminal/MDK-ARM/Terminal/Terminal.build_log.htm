@@ -1,0 +1,117 @@
+<html>
+<body>
+<pre>
+<h1>µVision Build Log</h1>
+<h2>Tool Versions:</h2>
+IDE-Version: ¦ÌVision V5.40.0.0
+Copyright (C) 2024 ARM Ltd and ARM Germany GmbH. All rights reserved.
+License Information: w 2417100121@qq.com
+w
+User-based license: Keil MDK Community (non-commercial free of charge)
+Valid until: Jun 1 2033. Cached until: Aug 1 2024
+ 
+Tool Versions:
+Toolchain:       Keil MDK Community (non-commercial free of charge  Version: 5.40.0.3
+Toolchain Path:  E:\Keil_v5\ARM\ARMCLANG\Bin
+C Compiler:      ArmClang.exe V6.22
+Assembler:       Armasm.exe V6.22
+Linker/Locator:  ArmLink.exe V6.22
+Library Manager: ArmAr.exe V6.22
+Hex Converter:   FromElf.exe V6.22
+CPU DLL:         SARMCM3.DLL V5.40.0.3
+Dialog DLL:      DCM.DLL V1.17.5.0
+Target DLL:      CMSIS_AGDI.dll V1.33.18.0
+Dialog DLL:      TCM.DLL V1.56.4.0
+ 
+<h2>Project:</h2>
+C:\Users\24171\Desktop\Terminal\MDK-ARM\Terminal.uvprojx
+Project File Date:  07/26/2024
+
+<h2>Output:</h2>
+*** Using Compiler 'V6.22', folder: 'E:\Keil_v5\ARM\ARMCLANG\Bin'
+Build target 'Terminal'
+../Core/Src/main.c(99): warning: passing 'char[14]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   99 |   HAL_UART_Transmit_DMA(&huart1, "System Start\n", 14);
+      |                                  ^~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h(753): note: passing argument to parameter 'pData' here
+  753 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                                   ^
+../Core/Src/main.c(103): warning: passing 'char[17]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  103 |   HAL_UART_Transmit_DMA(&huart1, "UART1 Init Over\n", 17);
+      |                                  ^~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h(753): note: passing argument to parameter 'pData' here
+  753 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                                   ^
+../Core/Src/main.c(106): warning: passing 'char[19]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  106 |   HAL_UART_Transmit_DMA(&huart1, "UART_AT Init Over\n", 17);
+      |                                  ^~~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h(753): note: passing argument to parameter 'pData' here
+  753 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                                   ^
+../Core/Src/main.c(109): warning: passing 'char[16]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  109 |   HAL_UART_Transmit_DMA(&huart1, "MQTT Link Over\n", 16);
+      |                                  ^~~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h(753): note: passing argument to parameter 'pData' here
+  753 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                                   ^
+../Core/Src/main.c(116): warning: passing 'char[18]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  116 |   HAL_UART_Transmit_DMA(&huart1, "System Init Over\n", 18);
+      |                                  ^~~~~~~~~~~~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h(753): note: passing argument to parameter 'pData' here
+  753 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                                   ^
+5 warnings generated.
+compiling main.c...
+../Core/Src/uart_at.c(37): warning: passing 'char[1024]' to parameter of type 'const uint8_t *' (aka 'const unsigned char *') converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   37 |     HAL_UART_Transmit_DMA(&AT_UART, AT_TX_BUFF, len);
+      |                                     ^~~~~~~~~~
+../Drivers/STM32F1xx_HAL_Driver/Inc\stm32f1xx_hal_uart.h(753): note: passing argument to parameter 'pData' here
+  753 | HAL_StatusTypeDef HAL_UART_Transmit_DMA(UART_HandleTypeDef *huart, const uint8_t *pData, uint16_t Size);
+      |                                                                                   ^
+../Core/Src/uart_at.c(34): warning: 'vsnprintf' size argument is too large; destination buffer has size 1024, but size argument is 1025 [-Wfortify-source]
+   34 |     len = vsnprintf(AT_TX_BUFF, sizeof(AT_TX_BUFF) + 1, (char *)str, arg);
+      |           ^
+../Core/Src/uart_at.c(63): warning: passing 'uint8_t[1024]' (aka 'unsigned char[1024]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+   63 |             if (strstr(AT_RX_BUFF, ack) != NULL)
+      |                        ^~~~~~~~~~
+E:\Keil_v5\ARM\ARMCLANG\bin\..\include\string.h(270): note: passing argument to parameter here
+  270 | extern _ARMABI char *strstr(const char * /*s1*/, const char * /*s2*/) __attribute__((__nonnull__(1,2)));
+      |                                                ^
+../Core/Src/uart_at.c(125): warning: passing 'uint8_t[1024]' (aka 'unsigned char[1024]') to parameter of type 'const char *' converts between pointers to integer types where one is of the unique plain 'char' type and the other is not [-Wpointer-sign]
+  125 |     strncpy(tempBuff, AT_RX_BUFF, sizeof(tempBuff));
+      |                       ^~~~~~~~~~
+E:\Keil_v5\ARM\ARMCLANG\bin\..\include\string.h(84): note: passing argument to parameter here
+   84 | extern _ARMABI char *strncpy(char * __restrict /*s1*/, const char * __restrict /*s2*/, size_t /*n*/) __attribute__((__nonnull__(1,2)));
+      |                                                                                      ^
+4 warnings generated.
+compiling uart_at.c...
+linking...
+Program Size: Code=28836 RO-data=3072 RW-data=200 ZI-data=5288  
+FromELF: creating hex file...
+"Terminal\Terminal.axf" - 0 Error(s), 9 Warning(s).
+
+<h2>Software Packages used:</h2>
+
+Package Vendor: ARM
+                https://www.keil.com/pack/ARM.CMSIS.6.1.0.pack
+                ARM::CMSIS@6.1.0
+                CMSIS (Common Microcontroller Software Interface Standard)
+   * Component: CORE Version: 6.1.0
+
+Package Vendor: Keil
+                https://www.keil.com/pack/Keil.STM32F1xx_DFP.2.4.1.pack
+                Keil::STM32F1xx_DFP@2.4.1
+                STMicroelectronics STM32F1 Series Device Support, Drivers and Examples
+
+<h2>Collection of Component include folders:</h2>
+  ./RTE/_Terminal
+  E:/Arm/Packs/ARM/CMSIS/6.1.0/CMSIS/Core/Include
+  E:/Arm/Packs/Keil/STM32F1xx_DFP/2.4.1/Device/Include
+
+<h2>Collection of Component Files used:</h2>
+
+   * Component: ARM::CMSIS:CORE@6.1.0
+Build Time Elapsed:  00:00:01
+</pre>
+</body>
+</html>
